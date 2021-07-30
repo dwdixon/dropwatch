@@ -39,7 +39,7 @@ packets when they happen.
 
 Building Dropwatch
 ------------------
-Dropwatch uses the autotools suite (autoconf/automake) to build.  To build and install the utility run the following commands:
+Dependencies:
 ```
 Dependencies Ubuntu 18.04:
 git clone ...
@@ -51,7 +51,7 @@ git clone ...
 git checkout a1aafca
 sudo yum install libnl3 libnl3-devel readline readline-devel binutils-devel
 ```
-
+Dropwatch uses the autotools suite (autoconf/automake) to build.  To build and install the utility run the following commands:
 ```
 ./autogen.sh
 ./configure
