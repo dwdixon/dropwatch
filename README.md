@@ -46,6 +46,7 @@ sudo apt-get install libnl-3-dev libnl-genl-3-dev libreadline-dev libpcap-dev bi
 
 Dependencies RHEL 7:
 sudo yum install libnl3 libnl3-devel readline readline-devel binutils-devel
+```
 
 ```
 ./autogen.sh
